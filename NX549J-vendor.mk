@@ -81,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/msm8953_camera.xml:system/etc/camera/msm8953_camera.xml \
-    vendor/nubia/NX549J/proprietary/etc/camera/ofilm_s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/ofilm_s5k3l8_f3l8yam_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/ov13850_chromatix.xml:system/etc/camera/ov13850_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:system/etc/camera/ov13850_q13v06k_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/ov4688_chromatix.xml:system/etc/camera/ov4688_chromatix.xml \
@@ -89,17 +88,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/etc/camera/ov5670_f5670bq_chromatix.xml:system/etc/camera/ov5670_f5670bq_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
-    vendor/nubia/NX549J/proprietary/etc/camera/qtech_ov5670_f5670bq_chromatix.xml:system/etc/camera/qtech_ov5670_f5670bq_chromatix.xml \
-    vendor/nubia/NX549J/proprietary/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/s5k3l8_mono_chromatix.xml:system/etc/camera/s5k3l8_mono_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/s5k3m2xm_chromatix.xml:system/etc/camera/s5k3m2xm_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/s5k3m2xm_chromatix_bear.xml:system/etc/camera/s5k3m2xm_chromatix_bear.xml \
     vendor/nubia/NX549J/proprietary/etc/camera/s5k3m2xx_chromatix.xml:system/etc/camera/s5k3m2xx_chromatix.xml \
-    vendor/nubia/NX549J/proprietary/etc/camera/s5k4h8_chromatix.xml:system/etc/camera/s5k4h8_chromatix.xml \
-    vendor/nubia/NX549J/proprietary/etc/camera/s5k5e8_chromatix.xml:system/etc/camera/s5k5e8_chromatix.xml \
-    vendor/nubia/NX549J/proprietary/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml \
     vendor/nubia/NX549J/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/nubia/NX549J/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/nubia/NX549J/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -133,8 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/nubia/NX549J/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/nubia/NX549J/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/nubia/NX549J/proprietary/etc/ft5346_biel_1080p.ini:system/etc/ft5346_biel_1080p.ini \
-    vendor/nubia/NX549J/proprietary/etc/ft5346_oufei_1080p.ini:system/etc/ft5346_oufei_1080p.ini \
     vendor/nubia/NX549J/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/nubia/NX549J/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/nubia/NX549J/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -164,27 +156,17 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/nubia/NX549J/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/nubia/NX549J/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
-    vendor/nubia/NX549J/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/nubia/NX549J/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/nubia/NX549J/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
-    vendor/nubia/NX549J/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/nubia/NX549J/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/nubia/NX549J/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/nubia/NX549J/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/nubia/NX549J/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nubia/NX549J/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/nubia/NX549J/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
-    vendor/nubia/NX549J/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
     vendor/nubia/NX549J/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/NX549J/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/nubia/NX549J/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/nubia/NX549J/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/nubia/NX549J/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
-    vendor/nubia/NX549J/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
-    vendor/nubia/NX549J/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
-    vendor/nubia/NX549J/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/nubia/NX549J/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
-    vendor/nubia/NX549J/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
     vendor/nubia/NX549J/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/nubia/NX549J/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/nubia/NX549J/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
@@ -200,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/nubia/NX549J/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/nubia/NX549J/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/nubia/NX549J/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/nubia/NX549J/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/nubia/NX549J/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -219,8 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
@@ -247,8 +226,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libactuator_bu64297.so:system/vendor/lib/libactuator_bu64297.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
@@ -264,7 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
@@ -533,29 +509,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_imx318_preview.so:system/vendor/lib/libchromatix_imx318_preview.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_imx318_snapshot.so:system/vendor/lib/libchromatix_imx318_snapshot.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_imx318_video_4k.so:system/vendor/lib/libchromatix_imx318_video_4k.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_common.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_common.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_hfr_120.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_hfr_60.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_hfr_90.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_liveshot.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_preview.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_snapshot.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_video.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_cpp_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_default_preview_dw9763.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_default_preview_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_default_video.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_default_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_default_video_dw9763.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_default_video_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_120.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_120_dw9763.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_120_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_60.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_60_dw9763.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_60_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_90.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_90_dw9763.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_hfr_90_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_liveshot.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_postproc.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_postproc.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_preview.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_snapshot.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_zsl_preview_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_ofilm_s5k3l8_f3l8yam_zsl_video_dw9763.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ov13850_common.so:system/vendor/lib/libchromatix_ov13850_common.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ov13850_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov13850_cpp_ds_chromatix.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ov13850_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13850_cpp_hfr_120.so \
@@ -774,56 +727,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_a3_default_preview.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_a3_default_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_a3_default_video.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_a3_default_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_a3_hfr_120.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_a3_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_a3_hfr_60.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_a3_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_a3_hfr_90.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_a3_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_common.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_common.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_ds_chromatix.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_hfr_120.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_hfr_60.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_hfr_90.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_liveshot.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_preview.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_snapshot.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_us_chromatix.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_us_chromatix.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_video.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_video_full.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_cpp_video_full.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_default_video.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_default_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_hfr_120.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_hfr_60.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_hfr_90.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_liveshot.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_postproc.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_postproc.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_preview.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_snapshot.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_video_full.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_video_full.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_zsl_preview.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_zsl_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_ov5670_f5670bq_zsl_video.so:system/vendor/lib/libchromatix_qtech_ov5670_f5670bq_zsl_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_common.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_common.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_120.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_60.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_90.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_liveshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_preview.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_snapshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_video.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_preview_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_preview_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_liveshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_postproc.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_postproc.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_preview.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_snapshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_preview_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_video_dw9763.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k3l8_common.so:system/vendor/lib/libchromatix_s5k3l8_common.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_cpp_hfr_60.so \
@@ -963,77 +866,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:system/vendor/lib/libchromatix_s5k4h8_common.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:system/vendor/lib/libchromatix_s5k4h8_cpp_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video.so:system/vendor/lib/libchromatix_s5k4h8_cpp_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_default_preview_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_default_preview_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_default_video.so:system/vendor/lib/libchromatix_s5k4h8_default_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_default_video_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_default_video_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_60_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_90_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:system/vendor/lib/libchromatix_s5k4h8_postproc.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_preview.so:system/vendor/lib/libchromatix_s5k4h8_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_zsl_preview_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_zsl_video_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_a3_default_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_a3_default_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_common.so:system/vendor/lib/libchromatix_s5k5e8_common.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_cpp_ds_chromatix.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_cpp_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_preview.so:system/vendor/lib/libchromatix_s5k5e8_cpp_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_cpp_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_cpp_us_chromatix.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_video.so:system/vendor/lib/libchromatix_s5k5e8_cpp_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_default_video.so:system/vendor/lib/libchromatix_s5k5e8_default_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_postproc.so:system/vendor/lib/libchromatix_s5k5e8_postproc.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_preview.so:system/vendor/lib/libchromatix_s5k5e8_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_zsl_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_zsl_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_common.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_common.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_120.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_60.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_90.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_liveshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_preview.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_snapshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_video.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_preview_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_preview_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_liveshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_liveshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_postproc.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_postproc.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_preview.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_preview.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_snapshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_snapshot.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_preview_dw9763.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_video_dw9763.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
@@ -1092,7 +924,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:system/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
@@ -1162,8 +993,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_ov5670_eeprom.so:system/vendor/lib/libmmcamera_ov5670_eeprom.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_ov5670_sunny.so:system/vendor/lib/libmmcamera_ov5670_sunny.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_ov5695.so:system/vendor/lib/libmmcamera_ov5695.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
@@ -1173,13 +1002,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so:system/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so:system/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_s5k3l8.so:system/vendor/lib/libmmcamera_s5k3l8.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_s5k3l8_eeprom.so:system/vendor/lib/libmmcamera_s5k3l8_eeprom.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_s5k3l8_mono.so:system/vendor/lib/libmmcamera_s5k3l8_mono.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:system/vendor/lib/libmmcamera_s5k3m2xm.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_s5k4h8.so:system/vendor/lib/libmmcamera_s5k4h8.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_s5k5e8.so:system/vendor/lib/libmmcamera_s5k5e8.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_s5k5e8_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_eeprom.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
@@ -1204,10 +1029,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmorpho_easy_hdr.so:system/vendor/lib/libmorpho_easy_hdr.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmorpho_hdr_checker.so:system/vendor/lib/libmorpho_hdr_checker.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmorpho_image_stab4.so:system/vendor/lib/libmorpho_image_stab4.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libmorpho_panorama_gp.so:system/vendor/lib/libmorpho_panorama_gp.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -1246,8 +1067,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/nubia/NX549J/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
@@ -1365,8 +1184,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
@@ -1435,7 +1252,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
-    vendor/nubia/NX549J/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
@@ -1450,8 +1266,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX549J/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/nubia/NX549J/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
-    vendor/nubia/NX549J/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/nubia/NX549J/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
     vendor/nubia/NX549J/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
@@ -1464,11 +1278,9 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     colorservice \
-    ims \
     imssettings \
     com.qti.location.sdk \
-    qcrilhook \
-    qdcm_calib_data_nt35596_1080p_video_EBBG \
-    qdcm_calib_data_r63350_1080p_video_Tianma
+    qcrilhook
